@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.egg-info/
+*.egg
+*.log
+
+# Virtualenv
+venv/
+.env
+.env/
+.venv/
+ENV/
+env/
+env.bak/
+
+# Django / Database
+db.sqlite3
+db.sqlite3-journal
+media/
+*.pot
+
+# Static & Build
+staticfiles/
+static/
+build/
+dist/
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Heroku
+*.coveragerc
+.pytest_cache/
+.mypy_cache/
+.tox/
