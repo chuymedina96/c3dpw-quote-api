@@ -28,6 +28,7 @@ def env_list(key: str, default: str = ""):
 SECRET_KEY = os.environ["SECRET_KEY"]              # required in prod
 DEBUG = env_bool("DEBUG", "1")                     # set 0 in prod
 
+
 # Allow localhost by default; you can also set ALLOWED_HOSTS in env
 ALLOWED_HOSTS = env_list("ALLOWED_HOSTS", "localhost,127.0.0.1,[::1]")
 
