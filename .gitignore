@@ -17,7 +17,7 @@ venv/
 ENV/
 env/
 env.bak/
-.env
+
 
 # Django / Database
 db.sqlite3
@@ -48,3 +48,4 @@ Thumbs.db
 .pytest_cache/
 .mypy_cache/
 .tox/
+.env
