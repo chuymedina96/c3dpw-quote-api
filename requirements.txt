@@ -2,7 +2,9 @@ asgiref==3.9.1
 Django==5.2.4
 django-cors-headers==4.7.0
 djangorestframework==3.16.0
+gunicorn==23.0.0
 numpy==2.3.2
+packaging==25.0
 sqlparse==0.5.3
 trimesh==4.7.1
 whitenoise==6.9.0
